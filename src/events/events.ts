@@ -11,7 +11,7 @@ export interface TicketCreatedEvent {
 }
 
 export interface TicketUpdatedEvent {
-  subject: Subjects.TicketCreated;
+  subject: Subjects.TicketUpdated;
   data: {
     id: string;
     title: string;
