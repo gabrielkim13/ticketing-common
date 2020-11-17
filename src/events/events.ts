@@ -21,7 +21,7 @@ export interface TicketUpdatedEvent {
   }
 }
 
-export interface OrderCreated {
+export interface OrderCreatedEvent {
   subject: Subjects.OrderCreated;
   data: {
     id: string;
@@ -35,7 +35,7 @@ export interface OrderCreated {
   }
 }
 
-export interface OrderCancelled {
+export interface OrderCancelledEvent {
   subject: Subjects.OrderCancelled;
   data: {
     id: string;
